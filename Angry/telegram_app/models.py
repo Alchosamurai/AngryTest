@@ -5,6 +5,7 @@ from uuid import uuid4
 class TelegramUser(models.Model):
     chat_id = models.IntegerField()
     username = models.CharField(max_length=100, null=True, blank=True)
+    full_name = models.CharField(max_length=100, null=True, blank=True)
 
 
     def __str__(self):

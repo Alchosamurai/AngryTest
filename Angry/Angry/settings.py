@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     "auth_app",
     "telegram_app",
+    "ninja",
+    "api",
 ]
 
 MIDDLEWARE = [
